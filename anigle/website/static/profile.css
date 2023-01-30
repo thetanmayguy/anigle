@@ -1,0 +1,55 @@
+.helo{
+    font-size: 32px;
+    text-align: center;
+    position: absolute;
+    top:110px;
+    left:360px;
+    color: white;
+}
+
+.names{
+    font-size: 22px;
+    position: absolute;
+    top:210px;
+    left:360px;
+    color: white;
+}
+
+.ptable{
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 50%;
+    white-space: nowrap;
+    background-color: transparent;
+    position: absolute;
+    top: 360px;
+    left: 360px;
+}
+
+.ptable td, .ptable th {
+    text-align: center;
+    padding: 8px;
+}
+
+.ptable td {
+    border-right: 1px solid #f8f8f8;
+    font-size: 15px;
+}
+
+.ptable thead th {
+    color: #ffffff;
+    background: steelblue;
+    font-size: 18px;
+}
+
+.ptable tr:nth-child(even) {
+    background: lightgrey;
+}
+
+.ptable tr:nth-child(odd) {
+    background: whitesmoke;
+}

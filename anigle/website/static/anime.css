@@ -1,0 +1,118 @@
+.a_title{
+    position: absolute;
+    top:100px;
+    left:300px;
+    font-size: 32px;
+}
+
+.a_desc{
+    position: absolute;
+    top:180px;
+    left:300px;
+    font-size: 16px;
+}
+
+.a_genre{
+    position: absolute;
+    top:207px;
+    left:300px;
+    font-size: 16px;
+}
+
+.a_studios{
+    position: absolute;
+    top:234px;
+    left:300px;
+    font-size: 16px;
+}
+
+.a_status{
+    position: absolute;
+    top:261px;
+    left:300px;
+    font-size: 16px;
+}
+
+.a_nep{
+    position: absolute;
+    top:288px;
+    left:300px;
+    font-size: 16px;
+}
+
+.a_sd{
+    position: absolute;
+    top:315px;
+    left:300px;
+    font-size: 16px;
+}
+
+.a_rate{
+    position: absolute;
+    top:342px;
+    left:300px;
+    font-size: 16px;
+}
+
+.temp{
+    font-weight: bolder;
+}
+
+.container{
+    background: rgba(0,0,0,0.5);
+    width:80%;
+    height: 80%;
+}
+
+.button{
+    padding: auto;
+    background: lightpink;
+    border: 0;
+    border-radius: 20px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top: 100px;
+    left:1000px;
+    width:200px;
+}
+
+.button1{
+    padding: auto;
+    background: lightpink;
+    border: 0;
+    border-radius: 20px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top: 350px;
+    left:1000px;
+    width:200px;
+}
+
+.button:hover
+{
+    cursor: pointer;
+    background: lemonchiffon;
+    color: #000 ;
+}
+
+.button1:hover
+{
+    cursor: pointer;
+    background: lemonchiffon;
+    color: #000 ;
+}
+
+.ratingnum{
+    color:#000;
+    text-align: center;
+    position: absolute;
+    top:350px;
+    left:885px;
+    background-color: lemonchiffon;
+    border: 0;
+    border-radius: 20px;
+}

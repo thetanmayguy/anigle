@@ -1,0 +1,122 @@
+body{
+    margin : 0;
+    padding : 0;
+    background: url("wp5089585-scenery-anime-wallpapers.png");
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-style: normal;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 35px;
+    color: #fff;
+}
+
+.signupbox{
+    width: 500px;
+    height: 520px;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    top: 45%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 10px 30px;
+}
+
+h4{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.signupbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.signupbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.signupbox input[type="number"]{
+    width: 20%;
+    margin-bottom: 20px;
+}
+
+.signupbox input[placeholder="gender"]{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.signupbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.button{
+    padding: auto;
+    background: lightpink;
+    border: 0;
+    border-radius: 20px;
+    height: 40px;
+    width: 100%;
+    font-size: 18px;
+}
+
+.button:hover
+{
+    cursor: pointer;
+    background: lemonchiffon;
+    color: #000 ;
+}
+
+.popup{
+    width: 400px;
+    background: transparent;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    padding: 0px 30px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+}
+
+h3{
+    font-size: 25px;
+    color: #333;
+}
+
+.popup button{
+    width:100%;
+    margin-top: 50%;
+    padding: 10px 0;
+    background: lightpink;
+    border-radius: 20px;
+    font-size: 18px;
+    outline: none;
+}

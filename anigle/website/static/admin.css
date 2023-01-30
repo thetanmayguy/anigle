@@ -1,0 +1,19 @@
+body{
+    margin : 0;
+    padding : 0;
+    background: url("wp5089585-scenery-anime-wallpapers.png");
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+h5{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    position: absolute;
+    top:40%;
+    left:500px;
+}
